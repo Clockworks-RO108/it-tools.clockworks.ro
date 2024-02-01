@@ -7,7 +7,7 @@ services:
       - "config:/config/"
     network_mode: bridge
     ports:
-      - "5545:80"
+      - "5546:80"
     environment:
       - TZ=Europe/Bucharest
     healthcheck:
