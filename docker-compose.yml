@@ -2,7 +2,7 @@ version: "3.9"
 services:
   it-tools:
     image: corentinth/it-tools
-    container_name: it-tools
+    container_name: clockworks-it-tools
     volumes:
       - "config:/config/"
     network_mode: bridge
