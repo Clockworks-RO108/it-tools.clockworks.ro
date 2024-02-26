@@ -4,7 +4,7 @@ services:
     image: corentinth/it-tools
     container_name: clockworks-it-tools
     volumes:
-      - "config:/config/"
+      - "clockworks_it_tools_config:/config/"
     network_mode: bridge
     ports:
       - "5546:80"
@@ -19,4 +19,4 @@ services:
     restart: always
 
 volumes:
-  config:
+  clockworks_it_tools_config:
